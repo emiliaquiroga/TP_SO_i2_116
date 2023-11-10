@@ -1,0 +1,12 @@
+ALFA: Mateo Spatola
+BETA: Maria Emilia Quiroga
+GAMMA: Ezequiel Monson
+
+
+c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+No, porque estan trabajando en sus propias ramas clonadas del original de BETA pero no están relacionadas entre sí. 
+En todo caso, ambos pueden actualizar al estado del fork de BETA.
+
+d-¿Los datos que tenía en mi repositorio , editados por mi, se pierden si quiero actualizar
+el fork?
+No. 
