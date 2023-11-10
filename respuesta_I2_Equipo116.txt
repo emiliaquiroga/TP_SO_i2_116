@@ -2,6 +2,26 @@ ALFA: Mateo Spatola
 BETA: Maria Emilia Quiroga
 GAMMA: Ezequiel Monson
 
+a-¿Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+
+Para actualizar tu repositorio forkeado al estado que lo dejó el repositorio original, 
+Agrego el repositorio original como un remoto con el comando: 
+'git remote add upstream URL_del_repositorio_original'. 
+Actualizo mi repositorio local con los cambios del repositorio original usando 
+'git fetch upstream'
+'git merge upstream/main'
+
+b-¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+
+Puede, sin embargo en este caso no lo realiza, pero si quisiera realizar esto
+ALFA tendría que usar los siguientes comandos:
+Agregar el repositorio de GAMMA como remoto:
+git remote add gamma URL_del_repositorio_de_GAMMA
+Actualizar el repositorio local al estado de la rama main de GAMMA:
+git pull gamma main
+Subir los cambios a su propio repositorio fork en GitHub:
+git push origin main
+Esto permitirá a ALFA mantener su fork actualizado con los cambios realizados por GAMMA en su repositorio fork.
 
 c-¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
 No, porque estan trabajando en sus propias ramas clonadas del original de BETA pero no están relacionadas entre sí. 
