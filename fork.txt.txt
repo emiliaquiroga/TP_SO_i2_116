@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 GAMMA:
 Ezequiel Monson
 IP: 192.168.1.42
 Hora: 09:11
+=======
+ALFA:
+Spatola Mateo
+IP: 192.168.1.13
+Hora: 09:23
+>>>>>>> upstream/main
